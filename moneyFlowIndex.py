@@ -3,7 +3,7 @@
 """
 Created on Fri Jul 12 11:16:40 2019
 
-@author: zhongjiulu
+@author: Zhongjiu LU
 """
 # Import libraries
 
