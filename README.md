@@ -5,10 +5,10 @@ Data Wrangling/Manipulation Challenge - Data science
 
 The money flow index (MFI) is a momentum indicator that measures the inflow and outflow of money into and out of a security over a specific period of time. It is computed as given below, and can assume values between 0 and 100.
 
-Money Flow Index = 100 x Money Ratio/(1 + Money Ratio)
-Money Ratio = Positive Money Flow Sum/Negative Money Flow Sum
-Money Flow = Typical Price x Volume
-Typical Price = (High Price + Low Price + Close Price)/3
+Money Flow Index = 100 x Money Ratio/(1 + Money Ratio)\par
+Money Ratio = Positive Money Flow Sum/Negative Money Flow Sum\par
+Money Flow = Typical Price x Volume\par
+Typical Price = (High Price + Low Price + Close Price)/3\par
 
 The concepts of Positive and Negative are defined as follows: on any given day, the Money Flow is denoted positive / negative if the Typical Price is higher / lower than the previous day's typical price. If the Typical Price is unchanged then that day's data are discarded. The Positive Money Flow Sum is the sum of all the Positive Money Flow over a sliding window of n days. The Negative Money Flow Sum is the sum of all the Negative Money Flow over a sliding window of n days.
 
